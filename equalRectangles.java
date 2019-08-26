@@ -26,7 +26,6 @@ public class Main {
         SpeedReader reader = new SpeedReader();
         ArrayList<int[]> cases = new ArrayList<>();
 
-        // I need this variable in order to 'consume' the line
         int caseNumber = Integer.parseInt(reader.nextLine());
         for (int i = 0; i < caseNumber; i++) {
             reader.nextLine();
@@ -51,7 +50,6 @@ public class Main {
         int Area = stickLengths[0] * stickLengths[numberOfSticks - 1];
         HashMap<Integer, Integer> stickLengthsCount = getStickLengthsCount(stickLengths);
 
-        // checking if I have an even number of each number
         for (Map.Entry<Integer, Integer> stickLength : stickLengthsCount.entrySet()) {
             if (stickLength.getValue() % 2 == 1) {
                 return "NO";

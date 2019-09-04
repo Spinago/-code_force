@@ -1,5 +1,5 @@
 # code_force
-Some problems I found on code force. The difficulty rating can be found beside the problem
+Some problems I found on code force. The difficulty rating can be found beside the problem. Some problem solutions might be found in the works_but_not file.
 
 Beautiful Matrix(700): https://codeforces.com/problemset/problem/263/A
 

@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 
-public class Main {
+public class BeautifulMatrix {
 
     static class FastReader {
         BufferedReader br;

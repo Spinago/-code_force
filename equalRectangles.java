@@ -6,7 +6,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Main {
+public class EqualRectangles {
     static class SpeedReader {
         BufferedReader br;
 

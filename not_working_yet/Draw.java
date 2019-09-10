@@ -45,57 +45,36 @@ public class Draw {
         System.out.println(solve(instances));
     }
 
-    private static int solve(int[][] instances) {
-        int ties = 0;
+    private static long solve(int[][] instances) {
+        long ties = 0;
 
-        if (instances.length == 1 || !(instances[0][0] == 0 && instances[0][1] == 0)) {
-            int[] zeros = {0, 0};
-            int dif = getSmallestDifference(zeros, instances[0]);
+        int[] prev = new int[] {0, 0};
 
-            if (dif < 1) { dif = 1; }
-            else { dif += 1; }
+        for (int i = 0; i < instances.length; i++) {
+            int[] current = instances[i];
 
-            ties += dif;
-        }
-
-        for (int i = 0; i < instances.length - 1; i++) {
-            int[] firstInst = instances[i];
-            int[] secInst = instances[i + 1];
-
-            if (!(firstInst[0] == firstInst[1] && Arrays.equals(firstInst, secInst))
-                    && !(firstInst[0] < firstInst[1] && secInst[0] < secInst[1])
-                    && !(firstInst[0] > firstInst[1] && secInst[0] > secInst[1])) {
-
-                if (secInst[0] == secInst[1]) {
-                    ties += getBiggestDifference(firstInst, secInst);
-                } else if (!(firstInst[0] == firstInst[1] && (secInst[0] == firstInst[0] || firstInst[1] == secInst[1]))) {
-                    int dif = getSmallestDifference(firstInst, secInst);
-
-                    if (dif < 1) dif = 1;
-
-                    ties += dif;
-                }
+            if (instances.length < 2 && Arrays.equals(prev, current)) {
+                ties++;
+                continue;
             }
 
-            if (i == 0 && firstInst[0] == 0 && firstInst[1] == 0 && secInst[0] == secInst[1]) {
-                ties += 1;
+            if (Arrays.equals(prev, new int[] {0, 0}) && Arrays.equals(prev, current) && i == 0 && Arrays.equals(instances[1], current)) {
+                ties++;
             }
+
+            if (Arrays.equals(prev, current)) {
+                continue;
+            }
+
+            ties += Math.max(0, Math.min(current[0], current[1]) - Math.max(prev[0], prev[1]) + 1);
+
+            if (prev[0] == prev[1] && !Arrays.equals(prev, new int[] {0, 0})) {
+                ties--;
+            }
+
+            prev = current;
         }
 
         return ties;
-    }
-
-    private static int getSmallestDifference(int[] f, int[] s) {
-        if (s[0] - f[0] > s[1] - f[1]) {
-            return s[1] - f[1];
-        }
-        return s[0] - f[0];
-    }
-
-    private static int getBiggestDifference(int[] f, int[] s) {
-        if (s[0] - f[0] > s[1] - f[1]) {
-            return s[0] - f[0];
-        }
-        return s[1] - f[1];
     }
 }

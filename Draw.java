@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 
-public class Draw {
+public class Main {
     private static class FastReader {
         BufferedReader br;
 
@@ -53,22 +53,13 @@ public class Draw {
         for (int i = 0; i < instances.length; i++) {
             int[] current = instances[i];
 
-            if (instances.length < 2 && Arrays.equals(prev, current)) {
-                ties++;
-                continue;
-            }
-
-            if (Arrays.equals(prev, new int[] {0, 0}) && Arrays.equals(prev, current) && i == 0 && Arrays.equals(instances[1], current)) {
-                ties++;
-            }
-
-            if (Arrays.equals(prev, current)) {
+            if (Arrays.equals(prev, current) && !(i == 0)) {
                 continue;
             }
 
             ties += Math.max(0, Math.min(current[0], current[1]) - Math.max(prev[0], prev[1]) + 1);
 
-            if (prev[0] == prev[1] && !Arrays.equals(prev, new int[] {0, 0})) {
+            if (prev[0] == prev[1] && !(i == 0)) {
                 ties--;
             }
 

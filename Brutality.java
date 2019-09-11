@@ -1,14 +1,11 @@
-// note, this works, but it is too slow for case seven which is a sequence of 20000 inputs.
-    // i'll come back to this once I figure out a faster way
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.stream.IntStream;
+import java.util.Collections;
 
-public class Brutality {
+public class Main {
     static class SpeedReader {
         BufferedReader br;
 
@@ -29,16 +26,16 @@ public class Brutality {
         }
     }
 
-    private static char[] sequence;
+    private static String sequence;
     private static int keyboardHP;
-    private static int[] hitsDamage;
+    private static long[] hitsDamage;
 
     private static void getInputs() {
         SpeedReader reader = new SpeedReader();
 
         keyboardHP = Arrays.stream(reader.nextLine().split(" ")).mapToInt(Integer::parseInt).toArray()[1];
-        hitsDamage = Arrays.stream(reader.nextLine().split(" ")).mapToInt(Integer::parseInt).toArray();
-        sequence = reader.nextLine().toCharArray();
+        hitsDamage = Arrays.stream(reader.nextLine().split(" ")).mapToLong(Long::parseLong).toArray();
+        sequence = reader.nextLine();
     }
 
     public static void main(String[] args) {
@@ -47,40 +44,35 @@ public class Brutality {
     }
 
     private static long solve() {
-        long dmg = IntStream.of(hitsDamage).sum();
-        ArrayList<int[]> charRanges = getCharRanges();
+        char prev = '@';
+        long dmg = 0;
+        ArrayList<Long> dmgInARow = new ArrayList<>();
 
-        for (int[] range : charRanges) {
-            if (range[1] - range[0] > keyboardHP) {
-                int hitsTooMany = range[1] - range[0] - keyboardHP;
-                int[] damageRange = Arrays.copyOfRange(hitsDamage, range[0], range[1]);
+        for (int i = 0; i < sequence.length(); i++) {
+            char current = sequence.charAt(i);
 
-                Arrays.sort(damageRange);
-                for (int i = 0; i < hitsTooMany; i++) {
-                    dmg -= damageRange[i];
+            if (current != prev || i == sequence.length() - 1) {
+                if (i == sequence.length() - 1) {
+                    dmgInARow.add(hitsDamage[i]);
                 }
+
+                if (dmgInARow.size() > keyboardHP) {
+                    Collections.sort(dmgInARow);
+                    for (int j = 0; j < dmgInARow.size() - keyboardHP; j++) {
+                        dmg -= dmgInARow.get(j);
+                    }
+                }
+
+                dmg += hitsDamage[i];
+                dmgInARow = new ArrayList<>();
+                dmgInARow.add(hitsDamage[i]);
+                prev = current;
+            } else {
+                dmg += hitsDamage[i];
+                dmgInARow.add(hitsDamage[i]);
             }
         }
 
         return dmg;
-    }
-
-    private static ArrayList<int[]> getCharRanges() {
-        ArrayList<int[]> ranges = new ArrayList<>();
-        char prev = sequence[0];
-        int startingIndex = 0;
-
-        for (int i = 1; i < sequence.length; i++) {
-            if (sequence[i] != prev || i + 1 == sequence.length) {
-                int n = i;
-                if (i + 1 == sequence.length) n += 1;
-                int[] range = { startingIndex, n };
-                ranges.add(range);
-
-                startingIndex = i;
-            }
-            prev = sequence[i];
-        }
-        return ranges;
     }
 }

@@ -35,7 +35,7 @@ public class Main {
 
         keyboardHP = Arrays.stream(reader.nextLine().split(" ")).mapToInt(Integer::parseInt).toArray()[1];
         hitsDamage = Arrays.stream(reader.nextLine().split(" ")).mapToLong(Long::parseLong).toArray();
-        sequence = reader.nextLine();
+        sequence = reader.nextLine() + "@";
     }
 
     public static void main(String[] args) {
@@ -51,10 +51,8 @@ public class Main {
         for (int i = 0; i < sequence.length(); i++) {
             char current = sequence.charAt(i);
 
-            if (current != prev || i == sequence.length() - 1) {
-                if (i == sequence.length() - 1) {
-                    dmgInARow.add(hitsDamage[i]);
-                }
+            if (current != prev) {
+                dmg += dmgInARow.stream().mapToLong(Long::longValue).sum();
 
                 if (dmgInARow.size() > keyboardHP) {
                     Collections.sort(dmgInARow);
@@ -63,12 +61,14 @@ public class Main {
                     }
                 }
 
-                dmg += hitsDamage[i];
+                if (current == '@') {
+                    break;
+                }
+
                 dmgInARow = new ArrayList<>();
                 dmgInARow.add(hitsDamage[i]);
                 prev = current;
             } else {
-                dmg += hitsDamage[i];
                 dmgInARow.add(hitsDamage[i]);
             }
         }

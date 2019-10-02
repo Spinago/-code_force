@@ -12,5 +12,3 @@ Brutality(1300): https://codeforces.com/problemset/problem/1107/C
 Draw!(1300): https://codeforces.com/problemset/problem/1131/B
 
 Optimal Currency Exchange(1300): https://codeforces.com/problemset/problem/1214/A
-
-F1 Champions(1500): https://codeforces.com/problemset/problem/24/B

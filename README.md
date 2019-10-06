@@ -1,5 +1,5 @@
 # code_force
-Some problems I found on code force. The difficulty rating can be found beside the problem. Some problem solutions might be found in the works_but_not file.
+Some problems I found on code force. The difficulty rating can be found beside the problem, if the rating is not beside the problem it is because there was no rating yet when I completed the problem.
 
 Beautiful Matrix(700): https://codeforces.com/problemset/problem/263/A
 
@@ -12,3 +12,7 @@ Brutality(1300): https://codeforces.com/problemset/problem/1107/C
 Draw!(1300): https://codeforces.com/problemset/problem/1131/B
 
 Optimal Currency Exchange(1300): https://codeforces.com/problemset/problem/1214/A
+
+CME: https://codeforces.com/contest/1241/problem/A
+
+Strings Equalization: https://codeforces.com/contest/1241/problem/B

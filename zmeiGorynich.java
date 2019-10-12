@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Main {
+public class ZmeiGorynich {
     static class Reader {
         BufferedReader br;
         StringTokenizer st;

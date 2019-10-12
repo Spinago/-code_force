@@ -13,8 +13,8 @@ Draw!(1300): https://codeforces.com/problemset/problem/1131/B
 
 Optimal Currency Exchange(1300): https://codeforces.com/problemset/problem/1214/A
 
-CME: https://codeforces.com/contest/1241/problem/A
+CME(600): https://codeforces.com/contest/1241/problem/A
 
-Strings Equalization: https://codeforces.com/contest/1241/problem/B
+Strings Equalization(1000): https://codeforces.com/contest/1241/problem/B
 
 Zmei Gorynich(1600): https://codeforces.com/problemset/problem/1217/B

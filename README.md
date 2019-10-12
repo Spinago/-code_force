@@ -16,3 +16,5 @@ Optimal Currency Exchange(1300): https://codeforces.com/problemset/problem/1214/
 CME: https://codeforces.com/contest/1241/problem/A
 
 Strings Equalization: https://codeforces.com/contest/1241/problem/B
+
+Zmei Gorynich(1600): https://codeforces.com/problemset/problem/1217/B

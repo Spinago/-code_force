@@ -6,3 +6,5 @@ Anagram Counting(3.0): https://open.kattis.com/problems/anagramcounting
 Coloring Socks(2.3): https://open.kattis.com/problems/color
 
 Supercomputer(4.2): https://open.kattis.com/problems/supercomputer
+
+Numbers On A Tree(2.0): https://open.kattis.com/problems/numbertree

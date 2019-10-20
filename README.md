@@ -1,5 +1,5 @@
 # kattis
-Problems from kattis that I solved, not all are here, I created this repo late. The rating can be seen beside the problem name. I am using some templates that I found online, I modify them where needed. I was too lazy to write my own.
+Problems from kattis that I solved, not all are here, I created this repo late. The rating can be seen beside the problem name. I am using some data strucure code templates that I found online in some problems, and I modify them where needed.
 
 Anagram Counting(3.0): https://open.kattis.com/problems/anagramcounting
 

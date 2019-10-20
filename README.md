@@ -1,5 +1,5 @@
 # kattis
-Problems from kattis that I solved, not all are here, I created this repo late. The rating can be seen beside the problem name.
+Problems from kattis that I solved, not all are here, I created this repo late. The rating can be seen beside the problem name. I am using some data strucure code templates that I found online in some problems, and I modify them where needed.
 
 Anagram Counting(3.0): https://open.kattis.com/problems/anagramcounting
 
@@ -12,3 +12,7 @@ Numbers On A Tree(2.0): https://open.kattis.com/problems/numbertree
 Ants(2.6): https://open.kattis.com/problems/ants
 
 Eeny Meeny(1.4): https://open.kattis.com/problems/eenymeeny
+
+Alphabet Animals(2.8): https://open.kattis.com/problems/alphabetanimals
+
+Virtual Friends(4.6): https://open.kattis.com/problems/virtualfriends

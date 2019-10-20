@@ -12,3 +12,5 @@ Numbers On A Tree(2.0): https://open.kattis.com/problems/numbertree
 Ants(2.6): https://open.kattis.com/problems/ants
 
 Eeny Meeny(1.4): https://open.kattis.com/problems/eenymeeny
+
+Alphabet Animals(2.8): https://open.kattis.com/problems/alphabetanimals

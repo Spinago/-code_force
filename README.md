@@ -20,3 +20,5 @@ Strings Equalization(1000): https://codeforces.com/contest/1241/problem/B
 Zmei Gorynich(1600): https://codeforces.com/problemset/problem/1217/B
 
 Boxers(1500): https://codeforces.com/problemset/problem/1203/E
+
+Kefa and First Steps(1000): https://codeforces.com/problemset/problem/580/A

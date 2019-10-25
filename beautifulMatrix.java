@@ -44,7 +44,6 @@ public class BeautifulMatrix {
         final int[] CENTER_POSITION = {3, 3};
         int[] positionOf1 = new int[2];
 
-        // iterate through the matrix to find the one's position
         for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix[i].length; j++) {
                 if (matrix[i][j] == 1) {
@@ -53,7 +52,7 @@ public class BeautifulMatrix {
                 }
             }
         }
-        // return the number of vertical moves required plus the number of horizontal moves required
+
         return Math.abs(CENTER_POSITION[0] - positionOf1[0]) + Math.abs(CENTER_POSITION[1] - positionOf1[1]);
     }
 }

@@ -16,3 +16,9 @@ Eeny Meeny(1.4): https://open.kattis.com/problems/eenymeeny
 Alphabet Animals(2.8): https://open.kattis.com/problems/alphabetanimals
 
 Virtual Friends(4.6): https://open.kattis.com/problems/virtualfriends
+
+IsItHalloween.com(1.3): https://open.kattis.com/problems/isithalloween
+
+Honour Thy (Apaxian) Parent(1.5): https://open.kattis.com/problems/apaxianparent
+
+Friday the 13th(1.8): https://open.kattis.com/problems/friday

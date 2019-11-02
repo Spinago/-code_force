@@ -24,3 +24,5 @@ Boxers(1500): https://codeforces.com/problemset/problem/1203/E
 Kefa and First Steps(1000): https://codeforces.com/problemset/problem/580/A
 
 BerSU Ball(1300): https://codeforces.com/problemset/problem/489/B
+
+Good ol' Numbers Coloring(): https://codeforces.com/contest/1245/problem/A

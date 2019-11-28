@@ -30,3 +30,5 @@ Good ol' Numbers Coloring(1000): https://codeforces.com/contest/1245/problem/A
 Qualification Rounds(1500): https://codeforces.com/problemset/problem/868/C
 
 Prison Transfer(1100): https://codeforces.com/problemset/problem/427/B
+
+Constanze's Machine(1400): https://codeforces.com/contest/1245/problem/C

@@ -1,5 +1,5 @@
 # code_force
-Some problems I found on code force. The difficulty rating can be found beside the problem, if the rating is not beside the problem it is because there was no rating yet when I completed the problem.
+Some problems I found on code force. The difficulty rating can be found beside the problem, the ratings are the rating that the problems were set at when I solved them.
 
 
 CME(600): https://codeforces.com/contest/1241/problem/A

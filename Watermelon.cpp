@@ -2,7 +2,10 @@
 
 using namespace std;
 
-int main(int argc, const char * argv[]) {
+int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    
     int weight;
     cin >> weight;
     

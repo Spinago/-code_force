@@ -22,6 +22,8 @@ Good ol' Numbers Coloring(1000): https://codeforces.com/contest/1245/problem/A
 
 King Escape(1000): https://codeforces.com/problemset/problem/1033/A
 
+Z-Sort(1000): https://codeforces.com/problemset/problem/652/B
+
 Prison Transfer(1100): https://codeforces.com/problemset/problem/427/B
 
 Equal Rectangles(1200): https://codeforces.com/problemset/problem/1203/B

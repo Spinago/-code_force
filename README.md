@@ -12,6 +12,8 @@ Way Too Long Words(800): https://codeforces.com/problemset/problem/71/A
 
 Important Exam(900): https://codeforces.com/problemset/problem/1201/A
 
+Network Configuration(900): https://codeforces.com/problemset/problem/412/B
+
 Strings Equalization(1000): https://codeforces.com/contest/1241/problem/B
 
 Kefa and First Steps(1000): https://codeforces.com/problemset/problem/580/A

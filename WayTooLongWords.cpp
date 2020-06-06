@@ -3,11 +3,11 @@
 
 using namespace std;
 
-#define MAX_LENGTH 10
-
 int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
+    
+    const int MAX_LENGTH = 10;
     
     int i;
     cin >> i;

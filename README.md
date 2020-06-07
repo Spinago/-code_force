@@ -28,6 +28,8 @@ Prison Transfer(1100): https://codeforces.com/problemset/problem/427/B
 
 Vicious Keyboard(1100): https://codeforces.com/problemset/problem/801/A
 
+PolandBall and Game(1100): https://codeforces.com/problemset/problem/755/B
+
 Equal Rectangles(1200): https://codeforces.com/problemset/problem/1203/B
 
 Brutality(1300): https://codeforces.com/problemset/problem/1107/C

@@ -1,10 +1,16 @@
 # code_force
-Some problems I found on code force. The difficulty rating can be found beside the problem, the ratings are the rating that the problems were set at when I solved them.
+Some problems I found on code force. The difficulty rating can be found beside the problems.
 
 
-CME(600): https://codeforces.com/contest/1241/problem/A
+CME(800): https://codeforces.com/contest/1241/problem/A
 
-Beautiful Matrix(700): https://codeforces.com/problemset/problem/263/A
+Beautiful Matrix(800): https://codeforces.com/problemset/problem/263/A
+
+Team(800): https://codeforces.com/problemset/problem/231/A
+
+Domino Piling(800): https://codeforces.com/problemset/problem/50/A 
+
+Next Round(800): https://codeforces.com/problemset/problem/158/A
 
 Watermelon(800): https://codeforces.com/problemset/problem/4/A
 
@@ -21,6 +27,8 @@ Kefa and First Steps(1000): https://codeforces.com/problemset/problem/580/A
 Good ol' Numbers Coloring(1000): https://codeforces.com/contest/1245/problem/A
 
 King Escape(1000): https://codeforces.com/problemset/problem/1033/A
+
+Eevee(1000): https://codeforces.com/problemset/problem/452/A
 
 Z-Sort(1000): https://codeforces.com/problemset/problem/652/B
 

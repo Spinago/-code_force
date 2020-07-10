@@ -34,11 +34,15 @@ Eevee(1000): https://codeforces.com/problemset/problem/452/A
 
 Z-Sort(1000): https://codeforces.com/problemset/problem/652/B
 
+Shortest Path of the King(1000): https://codeforces.com/problemset/problem/3/A
+
 Prison Transfer(1100): https://codeforces.com/problemset/problem/427/B
 
 Vicious Keyboard(1100): https://codeforces.com/problemset/problem/801/A
 
 PolandBall and Game(1100): https://codeforces.com/problemset/problem/755/B
+
+New Bus Route(1100): https://codeforces.com/problemset/problem/792/A
 
 Equal Rectangles(1200): https://codeforces.com/problemset/problem/1203/B
 

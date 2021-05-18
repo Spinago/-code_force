@@ -24,6 +24,8 @@ Network Configuration(900): https://codeforces.com/problemset/problem/412/B
 
 Strings Equalization(1000): https://codeforces.com/contest/1241/problem/B
 
+Theatre Square(1000): https://codeforces.com/problemset/problem/1/A
+
 Kefa and First Steps(1000): https://codeforces.com/problemset/problem/580/A
 
 Good ol' Numbers Coloring(1000): https://codeforces.com/contest/1245/problem/A

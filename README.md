@@ -22,9 +22,13 @@ Important Exam(900): https://codeforces.com/problemset/problem/1201/A
 
 Network Configuration(900): https://codeforces.com/problemset/problem/412/B
 
+String Task(1000): https://codeforces.com/problemset/problem/118/A
+
 Strings Equalization(1000): https://codeforces.com/contest/1241/problem/B
 
 Theatre Square(1000): https://codeforces.com/problemset/problem/1/A
+
+Young Physicist(1000): https://codeforces.com/problemset/problem/69/A
 
 Kefa and First Steps(1000): https://codeforces.com/problemset/problem/580/A
 

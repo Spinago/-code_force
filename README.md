@@ -62,6 +62,8 @@ Draw!(1300): https://codeforces.com/problemset/problem/1131/B
 
 BerSU Ball(1300): https://codeforces.com/problemset/problem/489/B
 
+IQ Test(1300): https://codeforces.com/problemset/problem/25/A
+
 Optimal Currency Exchange(1300): https://codeforces.com/problemset/problem/1214/A
 
 Constanze's Machine(1400): https://codeforces.com/contest/1245/problem/C

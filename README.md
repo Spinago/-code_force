@@ -54,6 +54,8 @@ New Bus Route(1100): https://codeforces.com/problemset/problem/792/A
 
 Equal Rectangles(1200): https://codeforces.com/problemset/problem/1203/B
 
+Vanya and Lanterns(1200): https://codeforces.com/problemset/problem/492/B
+
 Game with Telephone Numbers(1200): https://codeforces.com/contest/1155/problem/B
 
 Brutality(1300): https://codeforces.com/problemset/problem/1107/C

@@ -60,6 +60,8 @@ Game with Telephone Numbers(1200): https://codeforces.com/contest/1155/problem/B
 
 Brutality(1300): https://codeforces.com/problemset/problem/1107/C
 
+T-primes(1300): https://codeforces.com/contest/230/problem/B
+
 Draw!(1300): https://codeforces.com/problemset/problem/1131/B
 
 BerSU Ball(1300): https://codeforces.com/problemset/problem/489/B

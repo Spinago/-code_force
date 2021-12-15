@@ -52,6 +52,8 @@ PolandBall and Game(1100): https://codeforces.com/problemset/problem/755/B
 
 New Bus Route(1100): https://codeforces.com/problemset/problem/792/A
 
+Fancy Fence(1100): https://codeforces.com/problemset/problem/270/A
+
 Equal Rectangles(1200): https://codeforces.com/problemset/problem/1203/B
 
 Vanya and Lanterns(1200): https://codeforces.com/problemset/problem/492/B

@@ -1,5 +1,6 @@
-solutions to problems on 
+## solutions to problems on 
 
-https://open.kattis.com
-https://codeforces.com
+(https://open.kattis.com)
+
+(https://codeforces.com)
 

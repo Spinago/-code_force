@@ -28,6 +28,8 @@ Strings Equalization(1000): https://codeforces.com/contest/1241/problem/B
 
 Theatre Square(1000): https://codeforces.com/problemset/problem/1/A
 
+Lucky Division(1000): https://codeforces.com/problemset/problem/122/A
+
 Chat Room(1000): https://codeforces.com/contest/58/problem/A
 
 Young Physicist(1000): https://codeforces.com/problemset/problem/69/A
@@ -47,6 +49,8 @@ Z-Sort(1000): https://codeforces.com/problemset/problem/652/B
 Shortest Path of the King(1000): https://codeforces.com/problemset/problem/3/A
 
 Prison Transfer(1100): https://codeforces.com/problemset/problem/427/B
+
+Interesting Drink(1100): https://codeforces.com/contest/706/problem/B
 
 Vicious Keyboard(1100): https://codeforces.com/problemset/problem/801/A
 

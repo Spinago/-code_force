@@ -50,6 +50,8 @@ Shortest Path of the King(1000): https://codeforces.com/problemset/problem/3/A
 
 Prison Transfer(1100): https://codeforces.com/problemset/problem/427/B
 
+Fence(1100): https://codeforces.com/problemset/problem/363/B
+
 Interesting Drink(1100): https://codeforces.com/contest/706/problem/B
 
 Vicious Keyboard(1100): https://codeforces.com/problemset/problem/801/A

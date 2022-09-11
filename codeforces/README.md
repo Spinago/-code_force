@@ -4,6 +4,8 @@ Some problems I found on code force. The difficulty rating can be found beside t
 
 CME(800): https://codeforces.com/contest/1241/problem/A
 
+Helpful Maths(800): https://codeforces.com/problemset/problem/339/A
+
 New Year and Hurry(800): https://codeforces.com/problemset/problem/750/A
 
 Beautiful Matrix(800): https://codeforces.com/problemset/problem/263/A
